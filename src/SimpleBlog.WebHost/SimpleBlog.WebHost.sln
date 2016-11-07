@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73694448-98D2-4C2E-995A-78C12E14D32B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A221EFF6-B36F-42FB-8F31-9A4E61CBA8B3}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleBlog.WebHost", "src\SimpleBlog.WebHost\SimpleBlog.WebHost.xproj", "{892DB47E-0169-4B89-A70E-EA3D245944D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{B3253CF2-2755-4BC8-AD8D-F19544F9D000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{805BB0F0-8D81-4F59-B52C-0E59A4DAFC29}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleBlog.Modules.ModuleA", "src\SimpleBlog.WebHost\Modules\SimpleBlog.Modules.ModuleA\SimpleBlog.Modules.ModuleA.xproj", "{CA2995F1-208A-4DA8-A8B4-B94360D0388C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleBlog.Modules.Core", "src\SimpleBlog.WebHost\Modules\SimpleBlog.Modules.Core\SimpleBlog.Modules.Core.xproj", "{B02799AA-C86A-488B-8C8A-D5043490DBFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{469C48B3-772E-47EA-A1EF-CD9363125030}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleBlog.Core", "src\Core\SimpleBlog.Core\SimpleBlog.Core.xproj", "{8FAFB279-C190-4E50-B433-128E2639CDDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892DB47E-0169-4B89-A70E-EA3D245944D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892DB47E-0169-4B89-A70E-EA3D245944D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892DB47E-0169-4B89-A70E-EA3D245944D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892DB47E-0169-4B89-A70E-EA3D245944D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2995F1-208A-4DA8-A8B4-B94360D0388C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2995F1-208A-4DA8-A8B4-B94360D0388C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2995F1-208A-4DA8-A8B4-B94360D0388C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2995F1-208A-4DA8-A8B4-B94360D0388C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02799AA-C86A-488B-8C8A-D5043490DBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02799AA-C86A-488B-8C8A-D5043490DBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02799AA-C86A-488B-8C8A-D5043490DBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02799AA-C86A-488B-8C8A-D5043490DBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAFB279-C190-4E50-B433-128E2639CDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAFB279-C190-4E50-B433-128E2639CDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAFB279-C190-4E50-B433-128E2639CDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAFB279-C190-4E50-B433-128E2639CDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{892DB47E-0169-4B89-A70E-EA3D245944D5} = {B3253CF2-2755-4BC8-AD8D-F19544F9D000}
+		{B3253CF2-2755-4BC8-AD8D-F19544F9D000} = {73694448-98D2-4C2E-995A-78C12E14D32B}
+		{805BB0F0-8D81-4F59-B52C-0E59A4DAFC29} = {73694448-98D2-4C2E-995A-78C12E14D32B}
+		{CA2995F1-208A-4DA8-A8B4-B94360D0388C} = {805BB0F0-8D81-4F59-B52C-0E59A4DAFC29}
+		{B02799AA-C86A-488B-8C8A-D5043490DBFC} = {805BB0F0-8D81-4F59-B52C-0E59A4DAFC29}
+		{469C48B3-772E-47EA-A1EF-CD9363125030} = {73694448-98D2-4C2E-995A-78C12E14D32B}
+		{8FAFB279-C190-4E50-B433-128E2639CDDC} = {469C48B3-772E-47EA-A1EF-CD9363125030}
+	EndGlobalSection
+EndGlobal
